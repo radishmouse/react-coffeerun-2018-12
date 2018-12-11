@@ -69,7 +69,7 @@ class CoffeeForm extends Component {
     }
 
     _resetForm = () => {
-        this.setState({...defaultOrder});
+        this.setState(defaultOrder);
     }
 
     _updateCoffee = (e) => {
